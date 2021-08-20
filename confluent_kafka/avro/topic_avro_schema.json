@@ -1,0 +1,16 @@
+{
+  "type": "record",
+  "name": "topic_avro_schema",
+  "namespace": "com.fundingcircle.introducer_api",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string",
+      "doc": "message ID"
+    },
+    {
+      "name": "message",
+      "type": "string",
+      "doc": "message value"
+    }
+]}
